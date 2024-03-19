@@ -1,0 +1,11 @@
+P=40462;
+Vin=5*30.2;
+fs=10e3;
+Vout=700;
+Ioutmax=P/Vout;
+delIL=0.01*Ioutmax*(Vout/Vin); %% ripple inductor
+delvout=0.01*Vout;
+L=(Vin*(Vout-Vin))/(delIL*fs*Vout);
+C=(Ioutmax*(1-(Vin/Vout)))/(fs*delvout);
+R=Vout/Ioutmax;
+d=(Vout-Vin)/Vout;
