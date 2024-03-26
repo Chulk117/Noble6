@@ -17,14 +17,6 @@ To run this demo:
 4. Run the gridtied model in simulink
 
 
-## Getting Started
-
-To run this demo:
-1. Load the and run model in simulink
-2. Open the powergui block and select load flow analyser
-3. Select update and then compute.
-4. The load flow results are generated
-
 ## Toolbox Requirements
 - MATLAB
 - Simulink
